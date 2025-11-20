@@ -8,6 +8,6 @@ resource "aws_instance" "dev" {
   vpc_security_group_ids = ["sg-09a85f6ddcc7facaa"]  # 👈 use security group IDs, not names
 
     tags = {
-      Name = "cicddev"
+      Name = "cicddevvv"
     }
 }
